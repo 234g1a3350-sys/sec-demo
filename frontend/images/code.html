@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <title> students registration form </title>
+         
+         <style>
+            body{
+                background-color: antiquewhite;
+                text-align: center;
+            }
+            .temp{
+                display:grid;
+                margin-top: 2%;
+                margin-left: 25%;
+                margin-right: 25%;
+                
+                border-radius: 20px; 
+                background-color: rgb(103, 103, 185);
+                transition: transform 0.3s ease;
+                row-gap:2px;
+                margin-bottom: 35%;
+
+            
+
+            }
+            .temp:hover{
+            
+                transform:translateY(-5px) ;
+            }
+            input[type="submit"] {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: green;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 100px;
+        }
+        input[type="submit"]:hover{
+            transform:translateY(-5px);
+
+
+        }
+        
+        input[type="email"]{
+            border-radius: 100px;
+        }
+        input[type="name"]{
+            border-radius: 100px;
+        }
+
+            
+
+
+
+            
+            
+
+         </style>
+        
+    </head>
+<body >
+
+    <h4> STUDENTS REGISTRATION FORM</h4>
+    <div class="temp">
+    <form class="temp">
+        <lable for="name">Name</lable>
+        <input type="name" id="name" placeholder="enter name">
+       <label for="email">Email</label>
+<input type="email" id="email" placeholder="Enter email">
+
+<label>Gender</label><br>
+<label for="male">Male</label>
+<input type="radio" id="male" name="gender" value="male">
+<label for="female">Female</label>
+<input type="radio" id="female" name="gender" value="female">
+<input type="submit" value="submit" >
+<lable for="age ">Age</lable>
+<lable for="checkbox ">18 years</lable>
+<input type="checkbox" id="age" value="age">
+
+
+
+  </div>
+    </form>
+</body>
+</html>
